@@ -1,2 +1,3 @@
-# choingo
-Basic Chess Engine
+# Choingo
+
+Basic chess engine.

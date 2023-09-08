@@ -1,0 +1,17 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true,
+    "cmake.useCMakePresets": "always",
+    "clangd.path": "/usr/bin/clangd-13",
+    "clangd.arguments": ["-log=verbose", 
+                         "-pretty",
+                         "-j=8",
+                         "--inlay-hints",
+                         "--enable-config",
+                         "--completion-style=detailed",
+                         "--suggest-missing-includes",
+                         "--background-index", 
+                         "--compile-commands-dir=${workspaceFolder}/build/"],
+    "clangd.onConfigChanged": "restart"
+}
